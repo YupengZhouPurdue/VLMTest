@@ -1,0 +1,14 @@
+Ping to OpenAI API
+21.460294723510742 ms
+
+Detected Command
+go straight
+
+Output Command
+action_interface/nearest.sh
+
+Microphone Ready: 1751406178.1645868
+Done Recording Command: 1751406179.79664
+Done Detecting Command: 1751406180.1144683
+Done Generating Action: 1751406181.2826025
+Action Executed Successfully: 1751406181.283081
