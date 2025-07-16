@@ -5,7 +5,7 @@ from utils.device_list import get_device_index
 from utils.get_key_press import get_key_press
 
 # Set your OpenAI API key if needed for Whisper API
-os.environ['OPENAI_API_KEY'] = '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'
+# os.environ['OPENAI_API_KEY'] = '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'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-m', '--microphone_index', type=int, default=0, help='Index of the microphone device. Use utils/device_list.py to get the index.')
