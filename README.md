@@ -53,10 +53,14 @@ python main.py
 
 - **prompt_generation_interface**  
   Extracts structured prompts from perception, planning, and localization modules.
-- **templates/**  
+- **templates**  
   Contains pre‑constructed system messages for VLMs. Customize input information and prompt structure as needed.
 - **action_interface**  
   Executes specific actions. You can customize required actions here.
+- **model**  
+  Loads VLMs for inference. You can integate any VLMs or proentienally any other model for testing here.
+- **utils**  
+  This folder contains various utility modules that support the main platform.
 
 
 
