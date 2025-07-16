@@ -1,12 +1,12 @@
-# Personalized Autonomous Driving with Large Language Models: Field Experiments
-This repo is the official implementation for [Personalized Autonomous Driving with Large Language Models: Field Experiments](https://arxiv.org/abs/2312.09397). This paper is accepted to [IEEE ITSC 2024](https://ieee-itsc.org/2024/).
+# A Hierarchical Test Platform for Vision Language Model (VLM)-Integrated Real-World Autonomous Driving
+This repo is the case study implementation of the porposed framework in [A Hierarchical Test Platform for Vision Language Model (VLM)-Integrated Real-World Autonomous Driving](https://arxiv.org/abs/2506.14100). 
 
 <!-- PROJECT ILLUSTRATIONS -->
 
 <br />
 <div align="center">
     <p align="center">
-        <img src="/home/yupeng/Documents/VLM_test_platform/structure.png", alt="intro", width="600"/>
+        <img src="VLMTest/structure.png", alt="intro", width="600"/>
     </p>
 </div>
 
@@ -51,14 +51,14 @@ Templates consists of pre-constructed instructions for LLMs and historical inter
 If you find Talk2Drive useful, please consider citing our paper:
 
 ```
-@article{cui_talk2drive_2024,
-  title={Personalized {Autonomous} {Driving} with {Large} {Language} {Models}: {Field} {Experiments}},
-  shorttitle = {{Talk2Drive}},
-  doi = {10.48550/arXiv.2312.09397},
-  journal = {IEEE International Conference on Intelligent Transportation Systems (ITSC)},
-  author={Cui, Can and Yang, Zichong and Zhou, Yupeng and Ma, Yunsheng and Lu, Juanwu and Li, Lingxi and Chen, Yaobin and Panchal, Jitesh and Wang, Ziran},
-  year={2024},
-  url={https://arxiv.org/abs/2312.09397}, 
+@misc{zhou2025hierarchicaltestplatformvision,
+      title={A Hierarchical Test Platform for Vision Language Model (VLM)-Integrated Real-World Autonomous Driving}, 
+      author={Yupeng Zhou and Can Cui and Juntong Peng and Zichong Yang and Juanwu Lu and Jitesh H Panchal and Bin Yao and Ziran Wang},
+      year={2025},
+      eprint={2506.14100},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.14100}, 
 }
 ```
 
